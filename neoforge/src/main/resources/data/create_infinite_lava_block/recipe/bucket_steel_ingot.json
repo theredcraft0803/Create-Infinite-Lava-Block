@@ -1,0 +1,20 @@
+{
+  "type": "create:mixing",
+  "heat_requirement": "heated",
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "create_infinite_lava_block:bucket_iron_dust"
+    },
+    {
+      "count": 2,
+      "item": "minecraft:coal"
+    }
+  ],
+  "results": [
+    {
+      "count": 1,
+      "id": "create_infinite_lava_block:bucket_steel_ingot"
+    }
+  ]
+}

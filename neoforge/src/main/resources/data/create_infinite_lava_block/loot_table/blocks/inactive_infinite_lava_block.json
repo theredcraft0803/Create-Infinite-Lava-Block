@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "create_infinite_lava_block:inactive_infinite_lava_block"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "create_infinite_lava_block:blocks/inactive_infinite_lava_block"
+}

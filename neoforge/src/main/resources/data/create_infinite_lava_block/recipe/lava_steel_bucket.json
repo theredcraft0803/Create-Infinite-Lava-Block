@@ -1,0 +1,40 @@
+{
+  "type": "create:sequenced_assembly",
+
+  "ingredient": {
+    "item": "create_infinite_lava_block:empty_steel_bucket"
+  },
+
+  "transitional_item": {
+    "id": "create_infinite_lava_block:unfinished_lava_steel_bucket"
+  },
+
+  "loops": 10000,
+
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "create_infinite_lava_block:unfinished_lava_steel_bucket"
+        },
+        {
+          "type": "neoforge:single",
+          "amount": 1000,
+          "fluid": "minecraft:lava"
+        }
+      ],
+      "results": [
+        {
+          "id": "create_infinite_lava_block:unfinished_lava_steel_bucket"
+        }
+      ]
+    }
+  ],
+
+  "results": [
+    {
+      "id": "create_infinite_lava_block:lava_steel_bucket"
+    }
+  ]
+}

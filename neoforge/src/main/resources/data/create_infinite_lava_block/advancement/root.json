@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "id": "create_infinite_lava_block:infinite_lava_block"
+    },
+    "title": {
+      "translate": "advancement.create_infinite_lava_block.root.title"
+    },
+    "description": {
+      "translate": "advancement.create_infinite_lava_block.root.description"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

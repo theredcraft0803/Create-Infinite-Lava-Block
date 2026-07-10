@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_infinite_lava_block:block/infinite_lava_block"
+    }
+  }
+}

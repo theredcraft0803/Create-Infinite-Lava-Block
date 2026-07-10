@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "create_infinite_lava_block:block/small_brass_beam_block"
+    }
+  }
+}

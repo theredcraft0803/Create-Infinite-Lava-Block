@@ -1,0 +1,29 @@
+{
+  "itemGroup.create_infinite_lava_block": "Create: Infinite Lava Block",
+
+  "block.create_infinite_lava_block.infinite_lava_block": "Infinite Lava Block",
+  "block.create_infinite_lava_block.inactive_infinite_lava_block": "Inactive Infinite Lava Block",
+  "block.create_infinite_lava_block.small_brass_beam": "Small Brass Beam",
+
+  "item.create_infinite_lava_block.empty_steel_bucket": "Empty Steel Bucket",
+  "item.create_infinite_lava_block.unfinished_lava_steel_bucket": "Almost full Lava Steel Bucket",
+  "item.create_infinite_lava_block.lava_steel_bucket": "Lava Steel Bucket",
+  "item.create_infinite_lava_block.bucket_steel_ingot": "Bucket Steel Ingot",
+  "item.create_infinite_lava_block.bucket_iron_dust": "Bucket Iron Dust",
+
+  "config.jade.plugin_create_infinite_lava_block.infinite_lava_block": "Infinite",
+  "config.jade.plugin_create_infinite_lava_block.inactive_infinite_lava_block": "Click with a Lava Steel Bucket to activate the Block",
+
+  "jei.plugin_create_infinite_lava_block.infinite_lava_block": "Right-click an inactive Infinite Lava Block with a Lava Steel Bucket to activate it.",
+
+  "advancement.create_infinite_lava_block.root.title" : "Create: Infinite Lava Block",
+  "advancement.create_infinite_lava_block.root.description" : "Made by TRC",
+  "advancement.create_infinite_lava_block.lava_steel_bucket.title": "How does this fit in there?!",
+  "advancement.create_infinite_lava_block.lava_steel_bucket.description": "Obtain a Lava Steel Bucket",
+  "advancement.create_infinite_lava_block.placed_small_brass_beam.title": "Oh, you can place these?",
+  "advancement.create_infinite_lava_block.placed_small_brass_beam.description": "Place a Small Brass Beam on the Ground",
+  "advancement.create_infinite_lava_block.hit_by_small_brass_beam.title": "Ouch that hurt!",
+  "advancement.create_infinite_lava_block.hit_by_small_brass_beam.description": "You felt the power of Timmy_X3's weapon!",
+  "advancement.create_infinite_lava_block.make_infinite_lava_block.title": "It's done! And it's infinite!",
+  "advancement.create_infinite_lava_block.make_infinite_lava_block.description": "Right-Click an Inactive Infinite Lava Block with a Lava Steel Bucket too activate it"
+}

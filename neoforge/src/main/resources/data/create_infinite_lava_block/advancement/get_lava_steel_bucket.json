@@ -1,0 +1,30 @@
+{
+  "parent": "create_infinite_lava_block:root",
+  "display": {
+    "icon": {
+      "id": "create_infinite_lava_block:lava_steel_bucket"
+    },
+    "title": {
+      "translate": "advancement.create_infinite_lava_block.lava_steel_bucket.title"
+    },
+    "description": {
+      "translate": "advancement.create_infinite_lava_block.lava_steel_bucket.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_bucket": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "create_infinite_lava_block:lava_steel_bucket"
+          }
+        ]
+      }
+    }
+  }
+}

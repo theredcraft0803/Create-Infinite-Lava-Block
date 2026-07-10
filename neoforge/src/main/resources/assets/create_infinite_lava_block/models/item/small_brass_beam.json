@@ -1,0 +1,14 @@
+{
+  "parent": "create_infinite_lava_block:item/small_brass_beam_hand",
+  "textures": {
+    "layer0": "create_infinite_lava_block:item/small_brass_beam"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 1
+      },
+      "model": "create_infinite_lava_block:item/small_brass_beam_in_fox_mouth"
+    }
+  ]
+}

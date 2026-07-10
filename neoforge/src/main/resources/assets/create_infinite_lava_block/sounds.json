@@ -1,0 +1,11 @@
+{
+  "small_brass_beam_hit": {
+    "sounds": [
+      "create_infinite_lava_block:small_brass_beam/small_brass_beam_hit_1",
+      "create_infinite_lava_block:small_brass_beam/small_brass_beam_hit_2",
+      "create_infinite_lava_block:small_brass_beam/small_brass_beam_hit_3",
+      "create_infinite_lava_block:small_brass_beam/small_brass_beam_hit_4",
+      "create_infinite_lava_block:small_brass_beam/small_brass_beam_hit_5"
+    ]
+  }
+}

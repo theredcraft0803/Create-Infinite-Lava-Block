@@ -1,0 +1,19 @@
+{
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "minecraft:bucket"
+    }
+  ],
+  "processing_time": 300,
+  "results": [
+    {
+      "count": 1,
+      "id": "create_infinite_lava_block:bucket_iron_dust"
+    },
+    {
+      "chance": 0.2,
+      "id": "create_infinite_lava_block:bucket_iron_dust"
+    }
+  ]
+}

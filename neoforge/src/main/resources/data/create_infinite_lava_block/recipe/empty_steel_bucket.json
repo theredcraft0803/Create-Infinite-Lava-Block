@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "B B",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "item": "create_infinite_lava_block:bucket_steel_ingot"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_infinite_lava_block:empty_steel_bucket"
+  }
+}

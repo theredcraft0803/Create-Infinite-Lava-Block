@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "BGB",
+    "GFG",
+    "BGB"
+  ],
+  "key": {
+    "B": {
+      "item": "create_infinite_lava_block:small_brass_beam"
+    },
+    "G": {
+      "item": "minecraft:glass_pane"
+    },
+    "F": {
+      "item": "create:fluid_tank"
+    }
+  },
+  "result": {
+    "count": 1,
+    "id": "create_infinite_lava_block:inactive_infinite_lava_block"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "itemGroup.create_infinite_lava_block": "Create: Unendlicher Lavablock",
+
+  "block.create_infinite_lava_block.infinite_lava_block": "Unendlicher Lavablock",
+  "block.create_infinite_lava_block.inactive_infinite_lava_block": "Inaktiver Unendlicher Lavablock",
+  "block.create_infinite_lava_block.small_brass_beam": "Kleiner Messing Träger",
+
+  "item.create_infinite_lava_block.empty_steel_bucket": "Leerer Stahleimer",
+  "item.create_infinite_lava_block.unfinished_lava_steel_bucket": "Fast voller Lava-Stahleimer",
+  "item.create_infinite_lava_block.lava_steel_bucket": "Lava-Stahleimer",
+  "item.create_infinite_lava_block.bucket_steel_ingot": "Eimer-Stahlbarren",
+  "item.create_infinite_lava_block.bucket_iron_dust": "Eimer-Eisenstaub",
+
+  "config.jade.plugin_create_infinite_lava_block.infinite_lava_block": "Unendlich",
+  "config.jade.plugin_create_infinite_lava_block.inactive_infinite_lava_block": "Klicke mit einem Lava-Stahleimer um den Block zu aktivieren",
+
+  "jei.plugin_create_infinite_lava_block.infinite_lava_block": "Rechtsklicke einen inaktiven unendlichen Lavablock mit einem Lava-Stahleimer, um ihn zu aktivieren.",
+
+  "advancement.create_infinite_lava_block.root.title" : "Create: Unendlicher Lavablock",
+  "advancement.create_infinite_lava_block.root.description" : "Gemacht von TRC",
+  "advancement.create_infinite_lava_block.lava_steel_bucket.title": "Wie passt das da rein?!",
+  "advancement.create_infinite_lava_block.lava_steel_bucket.description": "Erhalte einen Lava-Stahleimer",
+  "advancement.create_infinite_lava_block.placed_small_brass_beam.title": "Oh, die kann man platzieren?",
+  "advancement.create_infinite_lava_block.placed_small_brass_beam.description": "Platziere einen kleinen Messing Träger auf dem Boden",
+  "advancement.create_infinite_lava_block.hit_by_small_brass_beam.title": "Autsch, das hat wehgetan!",
+  "advancement.create_infinite_lava_block.hit_by_small_brass_beam.description": "Du hast die Kraft von Timmy_X3's Waffe gespürt!",
+  "advancement.create_infinite_lava_block.make_infinite_lava_block.title": "Es ist fertig! Und unendlich!",
+  "advancement.create_infinite_lava_block.make_infinite_lava_block.description": "Aktiviere einen inaktiven Unendlichen Lavablock, indem du ihn mit einem Lava-Stahleimer rechtsklickst"
+}

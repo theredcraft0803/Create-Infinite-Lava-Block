@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "create_infinite_lava_block:infinite_lava_block",
+    "create_infinite_lava_block:inactive_infinite_lava_block",
+    "create_infinite_lava_block:small_brass_beam"
+  ]
+}
