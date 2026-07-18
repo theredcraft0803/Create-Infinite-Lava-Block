@@ -27,7 +27,6 @@ public class Create_InfiniteLavaBlock {
     public static final DeferredHolder<CreativeModeTab, CreativeModeTab> CREATE_INFINITE_LAVA_BLOCK_TAB =
             CREATIVE_MODE_TABS.register(Constants.MODID, () -> CreativeModeTab.builder()
                     .title(Component.translatable("itemGroup.create_infinite_lava_block"))
-                    .withTabsBefore(CreativeModeTabs.COMBAT)
                     .icon(() -> ModItems.INFINITE_LAVA_BLOCK_ITEM.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         ModItems.ITEMS.getEntries().forEach(item ->
