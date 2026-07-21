@@ -4,12 +4,12 @@ import de.trc.create_infinite_lava_block.blockentity.ModBlockEntities;
 import de.trc.create_infinite_lava_block.blocks.ModBlocks;
 import de.trc.create_infinite_lava_block.events.ModEvents;
 import de.trc.create_infinite_lava_block.items.ModItems;
+import de.trc.create_infinite_lava_block.recipe.LavaBucketLoopsPatcher;
 import de.trc.create_infinite_lava_block.sounds.ModSounds;
 
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -43,6 +43,7 @@ public class Create_InfiniteLavaBlock {
         CREATIVE_MODE_TABS.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
+        NeoForge.EVENT_BUS.register(LavaBucketLoopsPatcher.class);
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
@@ -50,6 +51,8 @@ public class Create_InfiniteLavaBlock {
         ModSounds.register(modEventBus);
 
         ModEvents.register();
+
+        modContainer.registerConfig(net.neoforged.fml.config.ModConfig.Type.COMMON, ModConfig.SPEC);
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
